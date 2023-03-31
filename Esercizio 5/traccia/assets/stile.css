@@ -1,0 +1,109 @@
+/* IMPOSTAZIONI GENERALI */
+h1, section p:first-of-type {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+header div {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+header div img {
+    width: 150px;
+    margin: auto;
+}
+
+header button {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: #f04c2f;
+    border-radius: 3px;
+    margin: auto;
+}
+/* MAIN */
+
+main {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+main div section {
+    background-color: #e22d0e;
+    color: white;
+}
+
+main section div {
+    border: #dee1e3 solid 1.5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 20px;
+}
+/* ELEMENTI NEL MAIN */
+p q {
+    color: white;
+}
+ section {
+    padding-bottom: 7%;
+    padding-top: 7%;
+ }
+#notebook {
+    border-radius: 50%;
+}
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+footer a {
+    color: #c8e7f0
+}
+
+footer i {
+    color: white;
+}
+
+footer p b {
+    color: white;
+}
+
+footer div ul dl p {
+    display: inline;
+}
